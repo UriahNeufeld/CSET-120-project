@@ -247,6 +247,7 @@ height: 300px;
 
 .shop-item-image {
     height: 250px;
+    width: 350px;
 }
 
 .shop-item-details {
@@ -366,4 +367,9 @@ height: 300px;
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+
+.foodfact{
+    width: 350px;
 }
