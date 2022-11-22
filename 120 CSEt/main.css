@@ -1,7 +1,7 @@
 .heading{
     padding: 28px;
-    background-color: rgb(255, 255, 255);
-    width:96.9%;
+background-image: url(/images/heading.jpg);
+    width:97%;
     
     
 }
@@ -13,14 +13,18 @@
 }
 
 .liheading{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 5px ;
     margin: 0 20px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(224, 165, 2);
+    background-color:rgb(196,76,76);
    border-radius: 100px;
-   border: solid red;
+   border: solid rgb(0, 0, 0);
+}
+
+ p{
+   color: white;
 }
 
 li a:hover{
@@ -34,17 +38,22 @@ li a:hover{
 }
 
 html{
-    background-image: url(/images/Background\ color.jpg);
-   
+  
+background-image: url(/images/Background\ color.jpg);
+
 }
 
 .menu1{
-    width: 1240px;
+    width: 500;
     position: absolute;
     top: 60%;
-    left: 65%;
+    left: 51.5%;
     transform: translate(-50%,-50%);
  color: rgb(10, 6, 6);
+ padding: 12px;
+ color: rgb(0, 0, 0);
+ background-color:rgb(196,76,76);
+ border: solid rgb(69, 143, 253);
 }
 
 .menu11{
@@ -113,7 +122,7 @@ height: 300px;
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: #333;
+    color: rgb(245, 245, 245);
     text-align: center;
     font-size: 2.5em;
 }
@@ -241,7 +250,7 @@ height: 300px;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
+    color: rgb(247, 243, 243);
     margin-bottom: 15px;
 }
 
@@ -258,7 +267,8 @@ height: 300px;
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+    color: rgb(250, 246, 246);
+    
 }
 
 .shop-items {
@@ -348,22 +358,26 @@ height: 300px;
 .cart-total {
     text-align: end;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    font-size: 30px;
 }
 
 .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-right: 20px;
 }
 
 .cart-total-price {
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 1.1em;
 }
 
-.btn-purchase {
+.btn-purchaso {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
