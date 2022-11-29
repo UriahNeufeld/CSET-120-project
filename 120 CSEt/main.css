@@ -40,6 +40,7 @@ li a:hover{
 html{
   
 background-image: url(/images/Background\ color.jpg);
+background-attachment: fixed;
 
 }
 
@@ -47,7 +48,7 @@ background-image: url(/images/Background\ color.jpg);
     width: 500;
     position: absolute;
     top: 60%;
-    left: 51.5%;
+    left: 50.5%;
     transform: translate(-50%,-50%);
  color: rgb(10, 6, 6);
  padding: 12px;
@@ -387,3 +388,14 @@ height: 300px;
 .foodfact{
     width: 350px;
 }
+
+.row{
+    max-width: 1140px;
+   margin:0 auto;
+}  
+
+label{
+   background-color: #eee;
+   border: solid black;
+}
+
