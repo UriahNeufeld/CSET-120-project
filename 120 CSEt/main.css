@@ -399,3 +399,6 @@ label{
    border: solid black;
 }
 
+input{
+    height: 20px;
+}
