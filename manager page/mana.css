@@ -1,0 +1,93 @@
+.ulheading{
+    display: flex;
+    list-style-type: none;
+}
+
+.liheading{
+    color: white;
+    padding: 5px ;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: green;
+   
+}
+
+li a:hover{
+    padding: 9px;
+    background-color: rgb(228, 20, 20);
+   }
+
+   .heading{
+    padding: 24px;
+    background-color: rgb(71, 71, 255);
+    width: 98.4%;
+    height: 283px;
+    background-image: url(/images/heading.jpg);
+    background-position: 20px;
+    
+}
+
+
+*{
+    margin: auto 0;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.logoo{
+    width: 300px;
+}
+
+#foods{
+    background-color: aqua;
+    width: 100.3%;
+    text-align: center;
+    background-image: url(/images/Background\ color.jpg);
+    
+}
+
+.Title{
+   color: rgb(226, 224, 224);
+   position: absolute;
+   left: 45%;
+   border: solid black;
+   background-color: brown;
+}
+
+
+.Menu{
+    color: rgb(226, 224, 224);
+    position: absolute;
+    left: 46.5%;
+    top:33%;
+    border: solid black;
+    background-color: brown;
+}
+
+
+button{
+    padding: 12px;
+    width: 108px;
+    font-size: 25px;
+}
+
+div{
+    background-color: rgba(165, 42, 42, 0.986);
+    width: 700px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.Category{
+    font-size: 30px;
+}
+
+.foodpic{
+    width: 400px;
+}
