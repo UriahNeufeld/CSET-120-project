@@ -22,7 +22,7 @@ function rem() {
 function add1() {
     let newItem=prompt("Add Item Here!")
     var list = document.getElementById('list1'),
-        item = document.createElement('li');
+        item = document.createElement('p');
     item.innerHTML = '<input type="checkbox" />' + newItem;
     list.appendChild(item);
 }
@@ -44,7 +44,7 @@ function rem1() {
 function add2() {
     let newItem=prompt("Add Item Here!")
     var list = document.getElementById('list2'),
-        item = document.createElement('li');
+        item = document.createElement('p');
     item.innerHTML = '<input type="checkbox" />' + newItem;
     list.appendChild(item);
 }
@@ -66,7 +66,7 @@ function rem1() {
 function add3() {
    
     var list = document.getElementById('list3'),
-        item = document.createElement('li');
+        item = document.createElement('p');
     item.innerHTML = '<input type="checkbox" />' + newItem;
     list.appendChild(item);
 }
@@ -88,7 +88,7 @@ function rem3() {
 function add4() {
     let newItem=prompt("Add Item Here!")
     var list = document.getElementById('list4'),
-        item = document.createElement('li');
+        item = document.createElement('p');
     item.innerHTML = '<input type="checkbox" />' + newItem;
     list.appendChild(item);
 }

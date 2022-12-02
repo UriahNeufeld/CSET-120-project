@@ -45,7 +45,6 @@ li a:hover{
 #foods{
     background-color: aqua;
     width: 100.3%;
-    text-align: center;
     background-image: url(/images/Background\ color.jpg);
     
 }
@@ -82,8 +81,15 @@ div{
 
 p{
     font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
 
+li{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
 .Category{
     font-size: 30px;
 }
