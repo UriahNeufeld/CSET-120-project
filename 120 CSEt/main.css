@@ -20,7 +20,7 @@ background-image: url(/images/heading.jpg);
     text-transform: uppercase;
     background-color:rgb(196,76,76);
    border-radius: 100px;
-   border: solid rgb(0, 0, 0);
+   border: solid rgb(219, 223, 21);
 }
 
  p{
@@ -48,13 +48,13 @@ background-attachment: fixed;
     width: 500;
     position: absolute;
     top: 60%;
-    left: 50.5%;
+    left: 50%;
     transform: translate(-50%,-50%);
  color: rgb(10, 6, 6);
  padding: 12px;
  color: rgb(0, 0, 0);
  background-color:rgb(196,76,76);
- border: solid rgb(69, 143, 253);
+ border: solid rgb(219, 253, 69);
 }
 
 .menu11{
@@ -402,3 +402,15 @@ label{
 input{
     height: 20px;
 }
+
+.payment1{
+    width: 100px;
+    height: 60px;
+}
+
+.borstyle{
+    border:rgb(208, 224, 64) solid 5px;
+    border-style: dashed;
+    
+}
+
