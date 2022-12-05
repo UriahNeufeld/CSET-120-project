@@ -1,7 +1,7 @@
 function add() {
     let newItem=prompt("Add Item Here!")
     var list = document.getElementById('list'),
-        item = document.createElement('li');
+        item = document.createElement('p');
     item.innerHTML = '<input type="checkbox" />' + newItem;
     list.appendChild(item);
 }
