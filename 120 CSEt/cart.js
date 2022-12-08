@@ -66,7 +66,7 @@ function addItemToCart(title, price, imageSrc) {
     cartRow.classList.add('cart-row')
          var cartItems = document.getElementsByClassName('cart-items')[0]
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
-    for (var i = 0; i < cartItemNames.length; i++) {
+    for (var i = 0; i < cartItemNames.length;i++) {
         if (cartItemNames[i].innerText == title) {
             alert('This item is already added to the cart')
             return
@@ -107,4 +107,3 @@ function addItemToCart(title, price, imageSrc) {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
