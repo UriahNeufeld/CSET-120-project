@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Righteous', cursive;
+}
+.header{
+    background-image:url("./images3/seasonings.jpg");
+    background-size: 100%;
+    height: 60vh;
+    background-attachment: fixed;
+    margin-top: 0;
+}
+    
+.w1{
+    text-align: left;
+    margin-left: 50px;
+    color:white;
+    text-shadow:rgb(255, 238, 0) 5px 5px 5px;
+}
+.w2{
+margin-top: 100px;
+text-align: center;
+color:white;
+text-shadow:rgb(255, 0, 0) 6px 6px 6px;
+}
+
+.w3{
+text-align: right;
+color:white;
+margin-right: 50px;
+text-shadow:blue 5px 5px 5px;
+margin-top: -55px;
+font-style:oblique;
+}
+
+a{
+    display:inline-block;
+    margin-top: 150px ;
+    margin-left: 50px;
+    color: rgb(9, 9, 165);
+    text-decoration: solid rgb(55, 0, 255);
+    text-shadow: white 8px 8px 8px; 
+}
+
+a:hover, a:active{
+    color: rgb(244, 9, 9);
+    border-bottom: double 4px yellow;
+}
+
+.between{
+    background-image: url(./images3/flags.jpg);
+    color: rgb(255, 255, 251);
+    border-top: solid 45px black;
+    height: 200vh;
+    max-height: 100%;
+}
+
+.content{
+    padding:35px;
+    text-align: center;
+    background-color:rgba(220, 28, 28, 0.74) ;
+    height: 75%;
+    margin: 10px;
+    border-style:double;color: rgba(240, 255, 255, 0.858); 
+    border-width: 5px;
+    background-position: center;background-size:cover;
+    box-shadow: inset 0px 0px 10px 10px; 
+    clear: both;
+}
+
+.column1{
+    margin-top: 10px;
+    width:41%;
+    float:left;
+    text-align: center;  
+}
+.text-1{
+    align-self: center;
+    width:100%;
+    display:flex;
+}
+img{
+   display:flex;
+   align-self: center;
+
+}
+.gif{
+    position: absolute;
+    display: inline-block;
+    margin-top: 210px;
+    margin-right: 110%;
+    clear: both;
+    left:45%;
+}
+.column2{
+    margin-top: 30px;
+    width:40%;
+    float:right;
+}
+
+.text-2{
+    display:flex;
+    align-self: center;
+    width:100%;
+}
+
+form{
+    color: rgb(6, 5, 5);
+    align-content: center;
+    display: inline-block;
+}
+.s1{
+    position:absolute;
+    top:170%;
+    left: 20%;
+}
+.s2{
+    right:30%;
+    margin-top:80%;
+    position:relative;
+    align-items: center;
+}
+#signUp{
+    display: flex;
+}
+.span-2-of-3 {
+    width: 10%;
+    font-size: 30px;
+}
+.span-1-of-3 {
+    width: 500px;
+}
+.row{
+    max-width: 1140px;
+   padding-top: 5px;
+   align-items: center;
+}
+
+.col{
+    display:inline-block;
+    align-items: center;
+}
+.contact-form {
+    width: 70%;
+    margin: 55%;
+}
+.sub{
+    position: absolute;
+    top:2090px;
+    left:50%;
+
+}
+.btn{
+    display:inline-block;
+    font-weight: 300;
+    text-decoration: none;
+    color:rgba(12, 1, 1, 0.982);
+    border-radius: 100px;
+    border-style: double;color: azure;
+    border-width: 4px;
+    box-shadow: 0px 0px 13px 13px white;
+}
+
+.btn-full{
+    background-color: rgba(252, 249, 249, 0);
+    color: rgb(254, 248, 248);
+    font-size: 23px;
+}
+
+label{
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(253, 245, 14);
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: dotted rgb(46, 6, 244) 5px;
+}
+
+select{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+}

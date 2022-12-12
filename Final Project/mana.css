@@ -1,0 +1,125 @@
+.ulheading{
+    display: flex;
+    list-style-type: none;
+}
+
+.liheading{
+    color: rgb(252, 252, 252);
+    padding: 5px ;
+    margin: 0 20px;
+    border: solid red;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(179, 52, 2);
+   
+}
+
+li a:hover{
+    padding: 9px;
+    background-color: rgb(194, 191, 6);
+   }
+
+   .heading{
+    padding: 24px;
+    background-color: rgb(71, 71, 255);
+    width: 98.4%;
+    height: 283px;
+    background-image: url(/images4/heading.jpg);
+    background-position: 20px;
+    
+}
+
+
+*{
+    margin: auto 0;
+    flex-wrap: wrap;
+
+}
+
+
+.manager{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    height: 1050px;
+    width: 800px;
+
+}
+
+
+.logoo{
+    width: 300px;
+    height: 350px;
+}
+
+#foods{
+    background-color: aqua;
+    width: 100.3%;
+    background-image: url(/images4/Background\ color.jpg);
+    background-attachment: fixed;
+    
+}
+
+.Title{
+   color: rgb(226, 224, 224);
+   position: absolute;
+   left: 46.5%;
+   top:47%;
+   width: 190px;
+   font-size: 30px;
+   border: solid black;
+   background-color: brown;
+}
+
+
+.Menu{
+    color: rgb(226, 224, 224);
+    position: absolute;
+    left: 48%;
+    top:39%;
+    width: 130px;
+    font-size: 50px;
+    border: solid black;
+    background-color: brown;
+}
+
+
+button{
+    padding: 12px;
+    width: 108px;
+    font-size: 25px;
+}
+
+div{
+    background-color: rgba(165, 42, 42, 0.986);
+    width: 700px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.Category{
+    font-size: 30px;
+}
+
+.foodpic{
+    width: 400px;
+}
+
+img{
+    width: 100px;
+    height: 200px;
+}
+
+table{
+    margin: auto;
+}
